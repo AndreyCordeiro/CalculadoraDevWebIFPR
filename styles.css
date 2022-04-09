@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+    padding: 4px;
+    font-family: 'Merriweather', serif;
+}
+
+.conteudo {
+    padding: 0px;
+}
+
+.borda {
+    border: 1.5px solid #23232e;
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.input-valor-um {
+    border: 1.5px solid #23232e;
+    border-radius: 7px;
+}
+
+.input-valor-dois {
+    border: 1.5px solid #23232e;
+    border-radius: 7px;
+}
+
+.botao-soma {
+    background-color: #23232e;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    border-radius: 7px;
+    transition: .3s;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 0.9rem;
+}
+
+.botao-soma:hover {
+    border: 1px solid #23232e;
+    background-color: transparent;
+    color: #23232e;
+}
+
+.botao-limpar {
+    background-color: #23232e;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    border-radius: 7px;
+    transition: .3s;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 0.9rem;
+}
+
+.botao-limpar:hover {
+    border: 1px solid #23232e;
+    background-color: transparent;
+    color: #23232e;
+}

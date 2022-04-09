@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+
+<head>
+    <link rel="icon" href="assets/icone-pagina.svg">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1 class="titulo">Minha primeira calculadora</h1>
+    <p class="conteudo">Esta é uma calculadora para somar dois números. Exercício da matéria de Desenvolvimento Web, Instituto Federal do Paraná - Campus Paranavaí.</p>
+    <p class="conteudo"><b>Curso:</b> Engenharia de Software - 3º Ano</p>
+    <p class="conteudo"><b>Professor:</b> Frank Willian Cardoso</p>
+    <button class="botao-limpar" onclick="esconderMostrar()">Esconder/Mostrar</button>
+    <div class="borda" id="borda">
+        <div class="valor-um">
+            <h3>Valor 1</h3>
+            <input class="input-valor-um" type="text" id="valor1">
+        </div>
+        <div class="valor-dois">
+            <h3>Valor 2</h3>
+            <input class="input-valor-dois" type="text" id="valor2">
+        </div>
+        <br>
+        <button class="botao-soma" onclick="somar()">Somar</button>
+        <button class="botao-limpar" onclick="limpar()">Limpar</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="funcoes.js"></script>
+</body>
+
+</html>
